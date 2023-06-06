@@ -6,9 +6,15 @@ import { Component } from '@angular/core';
   templateUrl: './navigation-menu.component.html',
   styleUrls: ['./navigation-menu.component.scss'],
   animations: [
-    trigger()
+    trigger
   ]
 })
 export class NavigationMenuComponent {
+
+  isOpen: boolean = true;
+
+  toggleMenu(){
+    this.isOpen = !this.isOpen;
+  }
 
 }
