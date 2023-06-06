@@ -15,6 +15,35 @@ a:hover{
 
 ul{
   margin: 0px;
+  padding-left: 0px;
 }
 
+.menu-list{
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.289);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
+.menu-box{
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+button{
+  border-radius: 30px;
+  width: 48px;
+  border-color: white;
+  background-color: rgba(0, 0, 128, 0.69);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(42, 42, 135, 0.758);
+}
+
+button:active{
+  background-color: rgba(75, 75, 202, 0.758);
+}
