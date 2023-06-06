@@ -1,0 +1,32 @@
+.open-close-component{
+  position: absolute;
+  top: 500px;
+}
+
+.stocazzoComponent{
+  position: absolute;
+  top: 500px;
+  right: 800px
+}
+
+@keyframes stocazzoh {
+  from {left: 800px;}
+  to {left: calc(100vw + 300px);}
+}
+
+@keyframes gesu {
+  from {left: calc(100vw + 300px);}
+  to {left: 800px;}
+}
+
+.staminchiaDeAnimate{
+  animation-name: stocazzoh;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.staminchiaDeAnimate2{
+  animation-name: gesu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
