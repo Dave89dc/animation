@@ -1,11 +1,11 @@
 <div class="menu-box">
   <div [@openClose]="isOpen ? 'open' : 'closed'" class="menu-list">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><button class="list-button" type="button" appButtonResize>Home</button></li>
+      <li><button class="list-button" type="button" appButtonResize>About</button></li>
+      <li><button class="list-button" type="button" appButtonResize>Services</button></li>
+      <li><button class="list-button" type="button" appButtonResize>Contacts</button></li>
     </ul>
   </div>
-  <button type="button" (click)="toggleMenu()">{{isOpen ? 'X' : 'Menù'}}</button>
+  <button class="menu-button" type="button" (click)="toggleMenu()">{{isOpen ? 'X' : 'Menù'}}</button>
 </div>

@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
 })
 export class NavigationMenuComponent {
 
-  isOpen: boolean = true;
+  isOpen: boolean = false;
 
   toggleMenu(){
     this.isOpen = !this.isOpen;
