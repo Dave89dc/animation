@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OpenCloseComponent } from './components/open-close/open-close.component';
 import { AnimationCssComponent } from './components/animation-css/animation-css.component';
+import { NavigationMenuComponent } from './components/navigation-menu/navigation-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OpenCloseComponent,
-    AnimationCssComponent
+    AnimationCssComponent,
+    NavigationMenuComponent
   ],
   imports: [
     BrowserModule,
