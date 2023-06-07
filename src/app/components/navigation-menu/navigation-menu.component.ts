@@ -16,10 +16,10 @@ import { Component } from '@angular/core';
         transform: 'translateX(366px)'
       })),
       transition('open => closed', [
-        animate('0.4s')
+        animate('0.3s ease-out')
       ]),
       transition('closed => open', [
-        animate('0.2s')
+        animate('0.4s ease-out')
       ])
     ]))
   ]
